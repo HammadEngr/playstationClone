@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/playstation.png" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <title>PlayStationClone</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="sony">SONY</div>
+      <nav class="nav__bar">
+        <img
+          class="nav__logo"
+          src="./images/playstation-logotype.png"
+          alt="logo"
+        />
+        <ul class="nav__list">
+          <li class="nav__list--item">
+            <button class="nav__btn">
+              Games
+              <img
+                class="nav__arrow--down"
+                src="./images/down-arrow.svg"
+                alt=""
+              />
+            </button>
+          </li>
+          <li class="nav__list--item">
+            <button class="nav__btn">
+              Hardware<img
+                class="nav__arrow--down"
+                src="./images/down-arrow.svg"
+                alt=""
+              />
+            </button>
+          </li>
+          <li class="nav__list--item">
+            <button class="nav__btn">
+              Services<img
+                class="nav__arrow--down"
+                src="./images/down-arrow.svg"
+                alt=""
+              />
+            </button>
+          </li>
+          <li class="nav__list--item">
+            <button class="nav__btn">
+              News<img
+                class="nav__arrow--down"
+                src="./images/down-arrow.svg"
+                alt=""
+              />
+            </button>
+          </li>
+          <li class="nav__list--item">
+            <button class="nav__btn">
+              Shop<img
+                class="nav__arrow--down"
+                src="./images/down-arrow.svg"
+                alt=""
+              />
+            </button>
+          </li>
+          <li class="nav__list--item">
+            <button class="nav__btn">
+              Support<img
+                class="nav__arrow--down"
+                src="./images/down-arrow.svg"
+                alt=""
+              />
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <div class="nav__signIn">
+        <button class="signIn__btn">Sign In</button>
+        <img src="./images/search-interface-symbol.png" alt="search-icon" />
+      </div>
+      <div class="header__expand--games header__expand--inactive">
+        <div class="header__expand--games-container">
+          <div class="header__expand--games-img">
+            <img src="./images/playstation-logotype.png" alt="" />
+          </div>
+          <div class="header__expand--games-img">
+            <img src="./images/playstation-logotype.png" alt="" />
+          </div>
+          <div class="header__expand--games-img">
+            <img src="./images/playstation-logotype.png" alt="" />
+          </div>
+          <div class="header__expand--games-img">
+            <img src="./images/playstation-logotype.png" alt="" />
+          </div>
+        </div>
+        <div class="header__expand--games-description">
+          <ul>
+            <li>hello</li>
+            <li>hello</li>
+            <li>hello</li>
+            <li>hello</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section id="section__1">
+      <div class="slider">
+        <div class="slide" data-slide="1">
+          <div class="slide__content">
+            <h1 class="slide__heading">Play Like Never before!</h1>
+            <p class="slide__description">
+              feel with powerfull dual sense controllers! burrrr
+            </p>
+          </div>
+          <div class="slide__img">
+            <img src="./images/controller.jpg" alt="" />
+          </div>
+        </div>
+        <div class="slide hidden" data-slide="2">
+          <div class="slide__content">
+            <h1 class="slide__heading">The norsa saga continues</h1>
+            <p class="slide__description">
+              embark on an epic and heartfealt jurney as Kratos and Atreus
+            </p>
+          </div>
+          <div class="slide__img">
+            <img src="./images/godOfWars.jpg" alt="" />
+          </div>
+        </div>
+        <div class="slide hidden" data-slide="3">
+          <div class="slide__content">
+            <h1 class="slide__heading">Sub Zero</h1>
+            <p class="slide__description">The ultimate fatality</p>
+          </div>
+          <div class="slide__img">
+            <img src="./images/subZero.jpg" alt="" />
+          </div>
+        </div>
+        <div class="slide hidden" data-slide="4">
+          <div class="slide__content">
+            <h1 class="slide__heading">Own the city</h1>
+            <p class="slide__description">
+              Rush for the victory with power of nitrous
+            </p>
+          </div>
+          <div class="slide__img">
+            <img src="./images/nfs.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="slide__tabs">
+        <div class="slide__tab" data-tab="1">
+          <img src="./images/controller.jpg" alt="" />
+        </div>
+        <div class="slide__tab" data-tab="2">
+          <img src="./images/godOfWars.jpg" alt="" />
+        </div>
+        <div class="slide__tab" data-tab="3">
+          <img src="./images/subZero.jpg" alt="" />
+        </div>
+        <div class="slide__tab" data-tab="4">
+          <img src="./images/nfs.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="section__2">
+      <div class="static__slide" data-staticslide="1">
+        <div class="static__description">
+          <h1>
+            PlayStation 5 <br />
+            Console
+          </h1>
+          <p>
+            Experience an all new <br />
+            generation of incredible <br />
+            PlayStation games
+          </p>
+          <button class="section__2--btn learn__btn">Learn More</button>
+          <button class="section__2--btn buy__btn">Buy Now</button>
+        </div>
+        <div class="static__img">
+          <img src="./images/console.jpg" alt="" />
+        </div>
+      </div>
+      <div class="static__slide hidden" data-staticslide="2">
+        <div class="static__description">
+          <h1>
+            Dual Sense <br />
+            Controller
+          </h1>
+          <p>
+            Experience an all new <br />
+            generation of incredible <br />
+            PlayStation games
+          </p>
+          <button class="section__2--btn learn__btn">Learn More</button>
+          <button class="section__2--btn buy__btn">Buy Now</button>
+        </div>
+        <div class="static__img">
+          <img src="./images/controller2.jpg" alt="" />
+        </div>
+      </div>
+      <div class="static__slide hidden" data-staticslide="3">
+        <div class="static__description">
+          <h1>
+            PlayStation X <br />
+            The Compact
+          </h1>
+          <p>
+            Experience an all new <br />
+            generation of incredible <br />
+            PlayStation games
+          </p>
+          <button class="section__2--btn learn__btn">Learn More</button>
+          <button class="section__2--btn buy__btn">Buy Now</button>
+        </div>
+        <div class="static__img">
+          <img src="./images/psx.jpg" alt="" />
+        </div>
+      </div>
+      <div class="static__slide hidden" data-staticslide="4">
+        <div class="static__description">
+          <h1>
+            PlayStation 4 <br />
+            Our Heritage
+          </h1>
+          <p>
+            Experience an all new <br />
+            generation of incredible <br />
+            PlayStation games
+          </p>
+          <button class="section__2--btn learn__btn">Learn More</button>
+          <button class="section__2--btn buy__btn">Buy Now</button>
+        </div>
+        <div class="static__img">
+          <img src="./images/ps4.png" alt="" />
+        </div>
+      </div>
+      <div class="static__tabs">
+        <div class="static__tab" data-static="1">
+          <div class="static__tab--img">
+            <img src="./images/console.jpg" alt="" />
+          </div>
+          <div class="static__tab--description">
+            <p>PS 5 Console</p>
+          </div>
+        </div>
+        <div class="static__tab" data-static="2">
+          <div class="static__tab--img">
+            <img src="./images/controller2.jpg" alt="" />
+          </div>
+          <div class="static__tab--description">
+            <p>DUAL sense</p>
+          </div>
+        </div>
+        <div class="static__tab" data-static="3">
+          <div class="static__tab--img">
+            <img src="./images/psx.jpg" alt="" />
+          </div>
+          <div class="static__tab--description">
+            <p>the compact</p>
+          </div>
+        </div>
+        <div class="static__tab" data-static="4">
+          <div class="static__tab--img">
+            <img src="./images/ps4.png" alt="" />
+          </div>
+          <div class="static__tab--description">
+            <p>Heritage</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section__3">
+      <div class="playstation__plus">
+        <h1>PlayStation Plus</h1>
+        <p>
+          Enhance your playstation <br />
+          experince with access to <br />
+          online multiplayer, monthly games, <br />
+          exclusive discounts and more.
+        </p>
+        <button>Explore PlayStation Plus</button>
+      </div>
+      <div class="playstation__plus--img">
+        <img src="./images/plus.jpg" alt="" />
+      </div>
+    </section>
+    <section id="section__4">
+      <div class="section__4--backdrop">
+        <div class="section__4--title">
+          <h1>
+            This Month <br />
+            <span>on PlayStation</span>
+          </h1>
+          <p>check out this month's biggest release</p>
+          <button>Find out more</button>
+        </div>
+        <div class="section__4--games">
+          <div class="section__4--game">
+            <div class="section__4--game-img">
+              <img src="./images/nfs.jpg" alt="" />
+            </div>
+            <h1>Need For Speed</h1>
+          </div>
+          <div class="section__4--game">
+            <div class="section__4--game-img">
+              <img src="./images/Assasins.jpg" alt="" />
+            </div>
+            <h1>Assasins Creed</h1>
+          </div>
+          <div class="section__4--game">
+            <div class="section__4--game-img">
+              <img src="./images/subZero.jpg" alt="" />
+            </div>
+            <h1>Mortal Kombat</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section__5">
+      <div class="section__5--slider">
+        <div class="section__5--btns">
+          <button class="section__5--btn-left btn">
+            <img src="./images/left-arrow.png" alt="" />
+          </button>
+          <button class="section__5--btn-right btn">
+            <img src="./images/right-arrow.png" alt="" />
+          </button>
+        </div>
+        <div class="section__5--slides">
+          <div class="section__5--slide" data-tab="1">
+            <div class="section__5--slide-title">
+              <h1>New Releases</h1>
+            </div>
+            <div class="section__5--slider-component"></div>
+            <div class="section__5--slider-component"></div>
+            <div class="section__5--slider-component"></div>
+            <div class="section__5--slider-component"></div>
+            <div class="section__5--slider-component"></div>
+            <div class="section__5--slider-component"></div>
+            <div class="section__5--slider-component"></div>
+            <div class="section__5--slider-component"></div>
+            <div class="section__5--slider-component"></div>
+            <div class="section__5--slider-component"></div>
+            <div class="section__5--slider-component"></div>
+            <div class="section__5--slider-component"></div>
+          </div>
+          <div class="section__5--slide" data-tab="1">
+            <div class="section__5--slide-title">
+              <h1>Coming soon</h1>
+            </div>
+            <div class="section__5--slider-component"></div>
+            <div class="section__5--slider-component"></div>
+            <div class="section__5--slider-component"></div>
+            <div class="section__5--slider-component"></div>
+            <div class="section__5--slider-component"></div>
+            <div class="section__5--slider-component"></div>
+            <div class="section__5--slider-component"></div>
+            <div class="section__5--slider-component"></div>
+            <div class="section__5--slider-component"></div>
+            <div class="section__5--slider-component"></div>
+            <div class="section__5--slider-component"></div>
+            <div class="section__5--slider-component"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__logo">
+        <img src="./images/playstation-logotype.png" alt="" />
+        <div class="footer__description">
+          <h4>country / region</h4>
+          <h4>2022 Sony Interactive Entertainment LLC</h4>
+        </div>
+      </div>
+      <div class="footer__tags">
+        <ul class="footer__list">
+          <li><a href="">Support</a></li>
+          <li><a href="">Privacy</a></li>
+          <li><a href=""> policy</a></li>
+          <li><a href="">Website</a></li>
+          <li><a href="">terms of use</a></li>
+          <li><a href="">PlayStation Studios</a></li>
+          <li><a href="">Legal</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">environment</a></li>
+        </ul>
+
+        <ul class="footer__list">
+          <li><a href="">terms</a></li>
+          <li><a href="">PS Store</a></li>
+          <li><a href="">cancellation policy</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Press</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">Site map</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Press</a></li>
+          <li><a href="">Careers</a></li>
+        </ul>
+
+        <ul class="footer__list">
+          <li><a href="">terms</a></li>
+          <li><a href="">PS Store</a></li>
+          <li><a href="">cancellation policy</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Press</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">Site map</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Press</a></li>
+          <li><a href="">Careers</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
